@@ -3,7 +3,7 @@ version: '3'
 services:
   sweepstake:
     build: .
-    container_name: sweepstake_app
+    container_name: sweepstake_container
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
